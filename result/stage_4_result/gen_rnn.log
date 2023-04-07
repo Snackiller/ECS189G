@@ -1,0 +1,743 @@
+************ Start ************
+dataset: text_generation , method: RNN text generation , setting: train test split , result: saver , evaluation: Text Generation
+loading data...
+method running...
+--start training...
+RNN_model(
+  (embedding): Embedding(7076, 128)
+  (rnn): RNN(128, 128, num_layers=3, dropout=0.2)
+  (fc): Linear(in_features=128, out_features=7076, bias=True)
+)
+Epoch[1] Batch[186/187] Loss[6.7646] Loss-Avg[7.4545]
+Epoch[2] Batch[186/187] Loss[6.1113] Loss-Avg[6.5630]
+Epoch[3] Batch[186/187] Loss[5.5879] Loss-Avg[6.1478]
+Epoch[4] Batch[186/187] Loss[5.1387] Loss-Avg[5.7754]
+Epoch[5] Batch[186/187] Loss[4.7639] Loss-Avg[5.4293]
+Epoch[6] Batch[186/187] Loss[4.5353] Loss-Avg[5.1065]
+Epoch[7] Batch[186/187] Loss[4.2134] Loss-Avg[4.8027]
+Epoch[8] Batch[186/187] Loss[3.9229] Loss-Avg[4.5149]
+Epoch[9] Batch[186/187] Loss[3.6879] Loss-Avg[4.2424]
+Epoch[10] Batch[186/187] Loss[3.4077] Loss-Avg[3.9819]
+Epoch[11] Batch[186/187] Loss[3.1992] Loss-Avg[3.7417]
+Epoch[12] Batch[186/187] Loss[2.9749] Loss-Avg[3.5111]
+Epoch[13] Batch[186/187] Loss[2.8242] Loss-Avg[3.3004]
+Epoch[14] Batch[186/187] Loss[2.6369] Loss-Avg[3.1140]
+Epoch[15] Batch[186/187] Loss[2.4846] Loss-Avg[2.9287]
+Epoch[16] Batch[186/187] Loss[2.3445] Loss-Avg[2.7649]
+Epoch[17] Batch[186/187] Loss[2.2519] Loss-Avg[2.6073]
+Epoch[18] Batch[186/187] Loss[2.0835] Loss-Avg[2.4642]
+Epoch[19] Batch[186/187] Loss[2.0012] Loss-Avg[2.3319]
+Epoch[20] Batch[186/187] Loss[1.8713] Loss-Avg[2.2096]
+Epoch[21] Batch[186/187] Loss[1.7374] Loss-Avg[2.0911]
+Epoch[22] Batch[186/187] Loss[1.6519] Loss-Avg[1.9833]
+Epoch[23] Batch[186/187] Loss[1.5244] Loss-Avg[1.8797]
+Epoch[24] Batch[186/187] Loss[1.4246] Loss-Avg[1.7904]
+Epoch[25] Batch[186/187] Loss[1.3510] Loss-Avg[1.7063]
+Epoch[26] Batch[186/187] Loss[1.2819] Loss-Avg[1.6261]
+Epoch[27] Batch[186/187] Loss[1.1969] Loss-Avg[1.5526]
+Epoch[28] Batch[186/187] Loss[1.1079] Loss-Avg[1.4690]
+Epoch[29] Batch[186/187] Loss[1.0719] Loss-Avg[1.4040]
+Epoch[30] Batch[186/187] Loss[0.9386] Loss-Avg[1.3403]
+Epoch[31] Batch[186/187] Loss[0.9136] Loss-Avg[1.2844]
+Epoch[32] Batch[186/187] Loss[0.8119] Loss-Avg[1.2237]
+Epoch[33] Batch[186/187] Loss[0.8374] Loss-Avg[1.1766]
+Epoch[34] Batch[186/187] Loss[0.7682] Loss-Avg[1.1219]
+Epoch[35] Batch[186/187] Loss[0.7307] Loss-Avg[1.0775]
+Epoch[36] Batch[186/187] Loss[0.7171] Loss-Avg[1.0310]
+Epoch[37] Batch[186/187] Loss[0.6238] Loss-Avg[0.9879]
+Epoch[38] Batch[186/187] Loss[0.6063] Loss-Avg[0.9429]
+Epoch[39] Batch[186/187] Loss[0.6364] Loss-Avg[0.9079]
+Epoch[40] Batch[186/187] Loss[0.5674] Loss-Avg[0.8775]
+Epoch[41] Batch[186/187] Loss[0.6162] Loss-Avg[0.8372]
+Epoch[42] Batch[186/187] Loss[0.5583] Loss-Avg[0.8067]
+Epoch[43] Batch[186/187] Loss[0.5322] Loss-Avg[0.7773]
+Epoch[44] Batch[186/187] Loss[0.4900] Loss-Avg[0.7424]
+Epoch[45] Batch[186/187] Loss[0.4443] Loss-Avg[0.7149]
+Epoch[46] Batch[186/187] Loss[0.4581] Loss-Avg[0.6866]
+Epoch[47] Batch[186/187] Loss[0.4968] Loss-Avg[0.6654]
+Epoch[48] Batch[186/187] Loss[0.4670] Loss-Avg[0.6378]
+Epoch[49] Batch[186/187] Loss[0.4239] Loss-Avg[0.6177]
+Epoch[50] Batch[186/187] Loss[0.4289] Loss-Avg[0.5904]
+Epoch[51] Batch[186/187] Loss[0.3964] Loss-Avg[0.5728]
+Epoch[52] Batch[186/187] Loss[0.3880] Loss-Avg[0.5479]
+Epoch[53] Batch[186/187] Loss[0.3715] Loss-Avg[0.5295]
+Epoch[54] Batch[186/187] Loss[0.3172] Loss-Avg[0.5168]
+Epoch[55] Batch[186/187] Loss[0.3291] Loss-Avg[0.4960]
+Epoch[56] Batch[186/187] Loss[0.3181] Loss-Avg[0.4770]
+Epoch[57] Batch[186/187] Loss[0.3006] Loss-Avg[0.4593]
+Epoch[58] Batch[186/187] Loss[0.3005] Loss-Avg[0.4458]
+Epoch[59] Batch[186/187] Loss[0.2619] Loss-Avg[0.4339]
+Epoch[60] Batch[186/187] Loss[0.2791] Loss-Avg[0.4169]
+Epoch[61] Batch[186/187] Loss[0.2723] Loss-Avg[0.4010]
+Epoch[62] Batch[186/187] Loss[0.2549] Loss-Avg[0.3923]
+Epoch[63] Batch[186/187] Loss[0.2352] Loss-Avg[0.3797]
+Epoch[64] Batch[186/187] Loss[0.2354] Loss-Avg[0.3667]
+Epoch[65] Batch[186/187] Loss[0.2093] Loss-Avg[0.3567]
+Epoch[66] Batch[186/187] Loss[0.2585] Loss-Avg[0.3474]
+Epoch[67] Batch[186/187] Loss[0.2178] Loss-Avg[0.3394]
+Epoch[68] Batch[186/187] Loss[0.2218] Loss-Avg[0.3292]
+Epoch[69] Batch[186/187] Loss[0.2176] Loss-Avg[0.3143]
+Epoch[70] Batch[186/187] Loss[0.2025] Loss-Avg[0.3089]
+Epoch[71] Batch[186/187] Loss[0.2212] Loss-Avg[0.3005]
+Epoch[72] Batch[186/187] Loss[0.2290] Loss-Avg[0.2920]
+Epoch[73] Batch[186/187] Loss[0.2337] Loss-Avg[0.2891]
+Epoch[74] Batch[186/187] Loss[0.1826] Loss-Avg[0.2783]
+Epoch[75] Batch[186/187] Loss[0.1665] Loss-Avg[0.2751]
+Epoch[76] Batch[186/187] Loss[0.2097] Loss-Avg[0.2673]
+Epoch[77] Batch[186/187] Loss[0.1919] Loss-Avg[0.2591]
+Epoch[78] Batch[186/187] Loss[0.1586] Loss-Avg[0.2486]
+Epoch[79] Batch[186/187] Loss[0.1452] Loss-Avg[0.2431]
+Epoch[80] Batch[186/187] Loss[0.1364] Loss-Avg[0.2357]
+Epoch[81] Batch[186/187] Loss[0.1765] Loss-Avg[0.2333]
+Epoch[82] Batch[186/187] Loss[0.1548] Loss-Avg[0.2258]
+Epoch[83] Batch[186/187] Loss[0.1930] Loss-Avg[0.2219]
+Epoch[84] Batch[186/187] Loss[0.1199] Loss-Avg[0.2148]
+Epoch[85] Batch[186/187] Loss[0.1210] Loss-Avg[0.2141]
+Epoch[86] Batch[186/187] Loss[0.1437] Loss-Avg[0.2099]
+Epoch[87] Batch[186/187] Loss[0.1306] Loss-Avg[0.2013]
+Epoch[88] Batch[186/187] Loss[0.1313] Loss-Avg[0.1984]
+Epoch[89] Batch[186/187] Loss[0.1091] Loss-Avg[0.1955]
+Epoch[90] Batch[186/187] Loss[0.1415] Loss-Avg[0.1882]
+Epoch[91] Batch[186/187] Loss[0.1383] Loss-Avg[0.1923]
+Epoch[92] Batch[186/187] Loss[0.0984] Loss-Avg[0.1823]
+Epoch[93] Batch[186/187] Loss[0.1198] Loss-Avg[0.1795]
+Epoch[94] Batch[186/187] Loss[0.0854] Loss-Avg[0.1749]
+Epoch[95] Batch[186/187] Loss[0.1167] Loss-Avg[0.1726]
+Epoch[96] Batch[186/187] Loss[0.1305] Loss-Avg[0.1683]
+Epoch[97] Batch[186/187] Loss[0.0925] Loss-Avg[0.1622]
+Epoch[98] Batch[186/187] Loss[0.1494] Loss-Avg[0.1562]
+Epoch[99] Batch[186/187] Loss[0.0994] Loss-Avg[0.1559]
+Epoch[100] Batch[186/187] Loss[0.0885] Loss-Avg[0.1578]
+Epoch[101] Batch[186/187] Loss[0.1191] Loss-Avg[0.1545]
+Epoch[102] Batch[186/187] Loss[0.0990] Loss-Avg[0.1483]
+Epoch[103] Batch[186/187] Loss[0.0902] Loss-Avg[0.1466]
+Epoch[104] Batch[186/187] Loss[0.0678] Loss-Avg[0.1443]
+Epoch[105] Batch[186/187] Loss[0.1143] Loss-Avg[0.1452]
+Epoch[106] Batch[186/187] Loss[0.1207] Loss-Avg[0.1395]
+Epoch[107] Batch[186/187] Loss[0.0978] Loss-Avg[0.1378]
+Epoch[108] Batch[186/187] Loss[0.1022] Loss-Avg[0.1366]
+Epoch[109] Batch[186/187] Loss[0.1181] Loss-Avg[0.1360]
+Epoch[110] Batch[186/187] Loss[0.0697] Loss-Avg[0.1341]
+Epoch[111] Batch[186/187] Loss[0.0964] Loss-Avg[0.1297]
+Epoch[112] Batch[186/187] Loss[0.0957] Loss-Avg[0.1259]
+Epoch[113] Batch[186/187] Loss[0.1177] Loss-Avg[0.1263]
+Epoch[114] Batch[186/187] Loss[0.0598] Loss-Avg[0.1243]
+Epoch[115] Batch[186/187] Loss[0.0591] Loss-Avg[0.1221]
+Epoch[116] Batch[186/187] Loss[0.0776] Loss-Avg[0.1190]
+Epoch[117] Batch[186/187] Loss[0.0618] Loss-Avg[0.1156]
+Epoch[118] Batch[186/187] Loss[0.0886] Loss-Avg[0.1158]
+Epoch[119] Batch[186/187] Loss[0.0524] Loss-Avg[0.1168]
+Epoch[120] Batch[186/187] Loss[0.0674] Loss-Avg[0.1135]
+Epoch[121] Batch[186/187] Loss[0.0902] Loss-Avg[0.1102]
+Epoch[122] Batch[186/187] Loss[0.0605] Loss-Avg[0.1097]
+Epoch[123] Batch[186/187] Loss[0.0555] Loss-Avg[0.1126]
+Epoch[124] Batch[186/187] Loss[0.0532] Loss-Avg[0.1098]
+Epoch[125] Batch[186/187] Loss[0.0603] Loss-Avg[0.1058]
+Epoch[126] Batch[186/187] Loss[0.0787] Loss-Avg[0.1024]
+Epoch[127] Batch[186/187] Loss[0.0759] Loss-Avg[0.1024]
+Epoch[128] Batch[186/187] Loss[0.0673] Loss-Avg[0.1025]
+Epoch[129] Batch[186/187] Loss[0.0613] Loss-Avg[0.1031]
+Epoch[130] Batch[186/187] Loss[0.0618] Loss-Avg[0.1031]
+Epoch[131] Batch[186/187] Loss[0.0593] Loss-Avg[0.1029]
+Epoch[132] Batch[186/187] Loss[0.0817] Loss-Avg[0.1005]
+Epoch[133] Batch[186/187] Loss[0.0702] Loss-Avg[0.0960]
+Epoch[134] Batch[186/187] Loss[0.0580] Loss-Avg[0.0927]
+Epoch[135] Batch[186/187] Loss[0.0733] Loss-Avg[0.0924]
+Epoch[136] Batch[186/187] Loss[0.0659] Loss-Avg[0.0891]
+Epoch[137] Batch[186/187] Loss[0.0630] Loss-Avg[0.0931]
+Epoch[138] Batch[186/187] Loss[0.0791] Loss-Avg[0.0896]
+Epoch[139] Batch[186/187] Loss[0.0780] Loss-Avg[0.0894]
+Epoch[140] Batch[186/187] Loss[0.0469] Loss-Avg[0.0873]
+Epoch[141] Batch[186/187] Loss[0.0334] Loss-Avg[0.0867]
+Epoch[142] Batch[186/187] Loss[0.0381] Loss-Avg[0.0893]
+Epoch[143] Batch[186/187] Loss[0.0349] Loss-Avg[0.0870]
+Epoch[144] Batch[186/187] Loss[0.0345] Loss-Avg[0.0848]
+Epoch[145] Batch[186/187] Loss[0.0595] Loss-Avg[0.0845]
+Epoch[146] Batch[186/187] Loss[0.0554] Loss-Avg[0.0832]
+Epoch[147] Batch[186/187] Loss[0.0597] Loss-Avg[0.0843]
+Epoch[148] Batch[186/187] Loss[0.0589] Loss-Avg[0.0838]
+Epoch[149] Batch[186/187] Loss[0.0555] Loss-Avg[0.0777]
+Epoch[150] Batch[186/187] Loss[0.0736] Loss-Avg[0.0804]
+Epoch[151] Batch[186/187] Loss[0.0665] Loss-Avg[0.0799]
+Epoch[152] Batch[186/187] Loss[0.0376] Loss-Avg[0.0810]
+Epoch[153] Batch[186/187] Loss[0.0661] Loss-Avg[0.0787]
+Epoch[154] Batch[186/187] Loss[0.0438] Loss-Avg[0.0768]
+Epoch[155] Batch[186/187] Loss[0.0677] Loss-Avg[0.0755]
+Epoch[156] Batch[186/187] Loss[0.0452] Loss-Avg[0.0747]
+Epoch[157] Batch[186/187] Loss[0.0392] Loss-Avg[0.0757]
+Epoch[158] Batch[186/187] Loss[0.0576] Loss-Avg[0.0737]
+Epoch[159] Batch[186/187] Loss[0.0355] Loss-Avg[0.0744]
+Epoch[160] Batch[186/187] Loss[0.0354] Loss-Avg[0.0732]
+Epoch[161] Batch[186/187] Loss[0.0410] Loss-Avg[0.0753]
+Epoch[162] Batch[186/187] Loss[0.0635] Loss-Avg[0.0747]
+Epoch[163] Batch[186/187] Loss[0.0468] Loss-Avg[0.0727]
+Epoch[164] Batch[186/187] Loss[0.0687] Loss-Avg[0.0737]
+Epoch[165] Batch[186/187] Loss[0.0420] Loss-Avg[0.0704]
+Epoch[166] Batch[186/187] Loss[0.0282] Loss-Avg[0.0701]
+Epoch[167] Batch[186/187] Loss[0.0753] Loss-Avg[0.0714]
+Epoch[168] Batch[186/187] Loss[0.0543] Loss-Avg[0.0666]
+Epoch[169] Batch[186/187] Loss[0.0408] Loss-Avg[0.0649]
+Epoch[170] Batch[186/187] Loss[0.0328] Loss-Avg[0.0654]
+Epoch[171] Batch[186/187] Loss[0.0308] Loss-Avg[0.0631]
+Epoch[172] Batch[186/187] Loss[0.0387] Loss-Avg[0.0612]
+Epoch[173] Batch[186/187] Loss[0.0422] Loss-Avg[0.0645]
+Epoch[174] Batch[186/187] Loss[0.0477] Loss-Avg[0.0677]
+Epoch[175] Batch[186/187] Loss[0.0630] Loss-Avg[0.0708]
+Epoch[176] Batch[186/187] Loss[0.0660] Loss-Avg[0.0683]
+Epoch[177] Batch[186/187] Loss[0.0410] Loss-Avg[0.0644]
+Epoch[178] Batch[186/187] Loss[0.0263] Loss-Avg[0.0657]
+Epoch[179] Batch[186/187] Loss[0.0571] Loss-Avg[0.0663]
+Epoch[180] Batch[186/187] Loss[0.0654] Loss-Avg[0.0655]
+Epoch[181] Batch[186/187] Loss[0.0416] Loss-Avg[0.0660]
+Epoch[182] Batch[186/187] Loss[0.0477] Loss-Avg[0.0613]
+Epoch[183] Batch[186/187] Loss[0.0310] Loss-Avg[0.0583]
+Epoch[184] Batch[186/187] Loss[0.0557] Loss-Avg[0.0574]
+Epoch[185] Batch[186/187] Loss[0.0371] Loss-Avg[0.0575]
+Epoch[186] Batch[186/187] Loss[0.0596] Loss-Avg[0.0609]
+Epoch[187] Batch[186/187] Loss[0.0320] Loss-Avg[0.0616]
+Epoch[188] Batch[186/187] Loss[0.0420] Loss-Avg[0.0608]
+Epoch[189] Batch[186/187] Loss[0.0402] Loss-Avg[0.0645]
+Epoch[190] Batch[186/187] Loss[0.0641] Loss-Avg[0.0618]
+Epoch[191] Batch[186/187] Loss[0.0288] Loss-Avg[0.0598]
+Epoch[192] Batch[186/187] Loss[0.0290] Loss-Avg[0.0581]
+Epoch[193] Batch[186/187] Loss[0.0220] Loss-Avg[0.0591]
+Epoch[194] Batch[186/187] Loss[0.0482] Loss-Avg[0.0573]
+Epoch[195] Batch[186/187] Loss[0.0283] Loss-Avg[0.0534]
+Epoch[196] Batch[186/187] Loss[0.0473] Loss-Avg[0.0528]
+Epoch[197] Batch[186/187] Loss[0.0418] Loss-Avg[0.0564]
+Epoch[198] Batch[186/187] Loss[0.0268] Loss-Avg[0.0595]
+Epoch[199] Batch[186/187] Loss[0.0281] Loss-Avg[0.0615]
+Epoch[200] Batch[186/187] Loss[0.0203] Loss-Avg[0.0575]
+Epoch[201] Batch[186/187] Loss[0.0308] Loss-Avg[0.0530]
+Epoch[202] Batch[186/187] Loss[0.0297] Loss-Avg[0.0531]
+Epoch[203] Batch[186/187] Loss[0.0620] Loss-Avg[0.0546]
+Epoch[204] Batch[186/187] Loss[0.0538] Loss-Avg[0.0557]
+Epoch[205] Batch[186/187] Loss[0.0281] Loss-Avg[0.0527]
+Epoch[206] Batch[186/187] Loss[0.0402] Loss-Avg[0.0530]
+Epoch[207] Batch[186/187] Loss[0.0537] Loss-Avg[0.0519]
+Epoch[208] Batch[186/187] Loss[0.0424] Loss-Avg[0.0525]
+Epoch[209] Batch[186/187] Loss[0.0458] Loss-Avg[0.0564]
+Epoch[210] Batch[186/187] Loss[0.0573] Loss-Avg[0.0550]
+Epoch[211] Batch[186/187] Loss[0.0417] Loss-Avg[0.0545]
+Epoch[212] Batch[186/187] Loss[0.0261] Loss-Avg[0.0552]
+Epoch[213] Batch[186/187] Loss[0.0409] Loss-Avg[0.0518]
+Epoch[214] Batch[186/187] Loss[0.0565] Loss-Avg[0.0558]
+Epoch[215] Batch[186/187] Loss[0.0487] Loss-Avg[0.0485]
+Epoch[216] Batch[186/187] Loss[0.0180] Loss-Avg[0.0475]
+Epoch[217] Batch[186/187] Loss[0.0446] Loss-Avg[0.0450]
+Epoch[218] Batch[186/187] Loss[0.0163] Loss-Avg[0.0430]
+Epoch[219] Batch[186/187] Loss[0.0459] Loss-Avg[0.0485]
+Epoch[220] Batch[186/187] Loss[0.0306] Loss-Avg[0.0495]
+Epoch[221] Batch[186/187] Loss[0.0387] Loss-Avg[0.0542]
+Epoch[222] Batch[186/187] Loss[0.0305] Loss-Avg[0.0551]
+Epoch[223] Batch[186/187] Loss[0.0247] Loss-Avg[0.0542]
+Epoch[224] Batch[186/187] Loss[0.0260] Loss-Avg[0.0544]
+Epoch[225] Batch[186/187] Loss[0.0299] Loss-Avg[0.0529]
+Epoch[226] Batch[186/187] Loss[0.0162] Loss-Avg[0.0501]
+Epoch[227] Batch[186/187] Loss[0.0291] Loss-Avg[0.0490]
+Epoch[228] Batch[186/187] Loss[0.0479] Loss-Avg[0.0478]
+Epoch[229] Batch[186/187] Loss[0.0288] Loss-Avg[0.0435]
+Epoch[230] Batch[186/187] Loss[0.0256] Loss-Avg[0.0444]
+Epoch[231] Batch[186/187] Loss[0.0345] Loss-Avg[0.0447]
+Epoch[232] Batch[186/187] Loss[0.0272] Loss-Avg[0.0455]
+Epoch[233] Batch[186/187] Loss[0.0210] Loss-Avg[0.0468]
+Epoch[234] Batch[186/187] Loss[0.0542] Loss-Avg[0.0463]
+Epoch[235] Batch[186/187] Loss[0.0610] Loss-Avg[0.0461]
+Epoch[236] Batch[186/187] Loss[0.0517] Loss-Avg[0.0460]
+Epoch[237] Batch[186/187] Loss[0.0351] Loss-Avg[0.0466]
+Epoch[238] Batch[186/187] Loss[0.0359] Loss-Avg[0.0502]
+Epoch[239] Batch[186/187] Loss[0.0395] Loss-Avg[0.0486]
+Epoch[240] Batch[186/187] Loss[0.0313] Loss-Avg[0.0455]
+Epoch[241] Batch[186/187] Loss[0.0167] Loss-Avg[0.0460]
+Epoch[242] Batch[186/187] Loss[0.0366] Loss-Avg[0.0446]
+Epoch[243] Batch[186/187] Loss[0.0284] Loss-Avg[0.0449]
+Epoch[244] Batch[186/187] Loss[0.0295] Loss-Avg[0.0436]
+Epoch[245] Batch[186/187] Loss[0.0320] Loss-Avg[0.0424]
+Epoch[246] Batch[186/187] Loss[0.0413] Loss-Avg[0.0405]
+Epoch[247] Batch[186/187] Loss[0.0606] Loss-Avg[0.0420]
+Epoch[248] Batch[186/187] Loss[0.0379] Loss-Avg[0.0433]
+Epoch[249] Batch[186/187] Loss[0.0475] Loss-Avg[0.0450]
+Epoch[250] Batch[186/187] Loss[0.0491] Loss-Avg[0.0466]
+Epoch[251] Batch[186/187] Loss[0.0715] Loss-Avg[0.0465]
+Epoch[252] Batch[186/187] Loss[0.0301] Loss-Avg[0.0462]
+Epoch[253] Batch[186/187] Loss[0.0448] Loss-Avg[0.0482]
+Epoch[254] Batch[186/187] Loss[0.0199] Loss-Avg[0.0440]
+Epoch[255] Batch[186/187] Loss[0.0327] Loss-Avg[0.0400]
+Epoch[256] Batch[186/187] Loss[0.0307] Loss-Avg[0.0410]
+Epoch[257] Batch[186/187] Loss[0.0337] Loss-Avg[0.0420]
+Epoch[258] Batch[186/187] Loss[0.0372] Loss-Avg[0.0416]
+Epoch[259] Batch[186/187] Loss[0.0174] Loss-Avg[0.0401]
+Epoch[260] Batch[186/187] Loss[0.0406] Loss-Avg[0.0414]
+Epoch[261] Batch[186/187] Loss[0.0319] Loss-Avg[0.0422]
+Epoch[262] Batch[186/187] Loss[0.0176] Loss-Avg[0.0403]
+Epoch[263] Batch[186/187] Loss[0.0203] Loss-Avg[0.0416]
+Epoch[264] Batch[186/187] Loss[0.0312] Loss-Avg[0.0430]
+Epoch[265] Batch[186/187] Loss[0.0393] Loss-Avg[0.0500]
+Epoch[266] Batch[186/187] Loss[0.0463] Loss-Avg[0.0489]
+Epoch[267] Batch[186/187] Loss[0.0353] Loss-Avg[0.0428]
+Epoch[268] Batch[186/187] Loss[0.0376] Loss-Avg[0.0420]
+Epoch[269] Batch[186/187] Loss[0.0529] Loss-Avg[0.0385]
+Epoch[270] Batch[186/187] Loss[0.0419] Loss-Avg[0.0400]
+Epoch[271] Batch[186/187] Loss[0.0415] Loss-Avg[0.0370]
+Epoch[272] Batch[186/187] Loss[0.0194] Loss-Avg[0.0412]
+Epoch[273] Batch[186/187] Loss[0.0214] Loss-Avg[0.0364]
+Epoch[274] Batch[186/187] Loss[0.0142] Loss-Avg[0.0406]
+Epoch[275] Batch[186/187] Loss[0.0217] Loss-Avg[0.0390]
+Epoch[276] Batch[186/187] Loss[0.0216] Loss-Avg[0.0367]
+Epoch[277] Batch[186/187] Loss[0.0179] Loss-Avg[0.0372]
+Epoch[278] Batch[186/187] Loss[0.0438] Loss-Avg[0.0405]
+Epoch[279] Batch[186/187] Loss[0.0493] Loss-Avg[0.0425]
+Epoch[280] Batch[186/187] Loss[0.0265] Loss-Avg[0.0432]
+Epoch[281] Batch[186/187] Loss[0.0222] Loss-Avg[0.0443]
+Epoch[282] Batch[186/187] Loss[0.0195] Loss-Avg[0.0434]
+Epoch[283] Batch[186/187] Loss[0.0255] Loss-Avg[0.0415]
+Epoch[284] Batch[186/187] Loss[0.0303] Loss-Avg[0.0468]
+Epoch[285] Batch[186/187] Loss[0.0293] Loss-Avg[0.0477]
+Epoch[286] Batch[186/187] Loss[0.0259] Loss-Avg[0.0429]
+Epoch[287] Batch[186/187] Loss[0.0343] Loss-Avg[0.0386]
+Epoch[288] Batch[186/187] Loss[0.0158] Loss-Avg[0.0350]
+Epoch[289] Batch[186/187] Loss[0.0142] Loss-Avg[0.0322]
+Epoch[290] Batch[186/187] Loss[0.0234] Loss-Avg[0.0328]
+Epoch[291] Batch[186/187] Loss[0.0114] Loss-Avg[0.0334]
+Epoch[292] Batch[186/187] Loss[0.0268] Loss-Avg[0.0335]
+Epoch[293] Batch[186/187] Loss[0.0258] Loss-Avg[0.0341]
+Epoch[294] Batch[186/187] Loss[0.0393] Loss-Avg[0.0403]
+Epoch[295] Batch[186/187] Loss[0.0406] Loss-Avg[0.0402]
+Epoch[296] Batch[186/187] Loss[0.0211] Loss-Avg[0.0428]
+Epoch[297] Batch[186/187] Loss[0.0229] Loss-Avg[0.0417]
+Epoch[298] Batch[186/187] Loss[0.0216] Loss-Avg[0.0393]
+Epoch[299] Batch[186/187] Loss[0.0146] Loss-Avg[0.0347]
+Epoch[300] Batch[186/187] Loss[0.0310] Loss-Avg[0.0338]
+Epoch[301] Batch[186/187] Loss[0.0372] Loss-Avg[0.0360]
+Epoch[302] Batch[186/187] Loss[0.0290] Loss-Avg[0.0375]
+Epoch[303] Batch[186/187] Loss[0.0539] Loss-Avg[0.0374]
+Epoch[304] Batch[186/187] Loss[0.0289] Loss-Avg[0.0389]
+Epoch[305] Batch[186/187] Loss[0.0409] Loss-Avg[0.0404]
+Epoch[306] Batch[186/187] Loss[0.0451] Loss-Avg[0.0446]
+Epoch[307] Batch[186/187] Loss[0.0209] Loss-Avg[0.0383]
+Epoch[308] Batch[186/187] Loss[0.0156] Loss-Avg[0.0358]
+Epoch[309] Batch[186/187] Loss[0.0171] Loss-Avg[0.0356]
+Epoch[310] Batch[186/187] Loss[0.0426] Loss-Avg[0.0360]
+Epoch[311] Batch[186/187] Loss[0.0326] Loss-Avg[0.0372]
+Epoch[312] Batch[186/187] Loss[0.0266] Loss-Avg[0.0406]
+Epoch[313] Batch[186/187] Loss[0.0099] Loss-Avg[0.0372]
+Epoch[314] Batch[186/187] Loss[0.0256] Loss-Avg[0.0386]
+Epoch[315] Batch[186/187] Loss[0.0265] Loss-Avg[0.0341]
+Epoch[316] Batch[186/187] Loss[0.0156] Loss-Avg[0.0359]
+Epoch[317] Batch[186/187] Loss[0.0144] Loss-Avg[0.0375]
+Epoch[318] Batch[186/187] Loss[0.0347] Loss-Avg[0.0356]
+Epoch[319] Batch[186/187] Loss[0.0228] Loss-Avg[0.0334]
+Epoch[320] Batch[186/187] Loss[0.0176] Loss-Avg[0.0353]
+Epoch[321] Batch[186/187] Loss[0.0278] Loss-Avg[0.0338]
+Epoch[322] Batch[186/187] Loss[0.0198] Loss-Avg[0.0356]
+Epoch[323] Batch[186/187] Loss[0.0204] Loss-Avg[0.0329]
+Epoch[324] Batch[186/187] Loss[0.0304] Loss-Avg[0.0342]
+Epoch[325] Batch[186/187] Loss[0.0173] Loss-Avg[0.0325]
+Epoch[326] Batch[186/187] Loss[0.0288] Loss-Avg[0.0307]
+Epoch[327] Batch[186/187] Loss[0.0223] Loss-Avg[0.0344]
+Epoch[328] Batch[186/187] Loss[0.0270] Loss-Avg[0.0340]
+Epoch[329] Batch[186/187] Loss[0.0234] Loss-Avg[0.0347]
+Epoch[330] Batch[186/187] Loss[0.0281] Loss-Avg[0.0342]
+Epoch[331] Batch[186/187] Loss[0.0137] Loss-Avg[0.0352]
+Epoch[332] Batch[186/187] Loss[0.0208] Loss-Avg[0.0382]
+Epoch[333] Batch[186/187] Loss[0.0185] Loss-Avg[0.0463]
+Epoch[334] Batch[186/187] Loss[0.0449] Loss-Avg[0.0497]
+Epoch[335] Batch[186/187] Loss[0.0353] Loss-Avg[0.0485]
+Epoch[336] Batch[186/187] Loss[0.0289] Loss-Avg[0.0430]
+Epoch[337] Batch[186/187] Loss[0.0255] Loss-Avg[0.0341]
+Epoch[338] Batch[186/187] Loss[0.0265] Loss-Avg[0.0306]
+Epoch[339] Batch[186/187] Loss[0.0298] Loss-Avg[0.0310]
+Epoch[340] Batch[186/187] Loss[0.0222] Loss-Avg[0.0324]
+Epoch[341] Batch[186/187] Loss[0.0184] Loss-Avg[0.0285]
+Epoch[342] Batch[186/187] Loss[0.0068] Loss-Avg[0.0269]
+Epoch[343] Batch[186/187] Loss[0.0190] Loss-Avg[0.0287]
+Epoch[344] Batch[186/187] Loss[0.0214] Loss-Avg[0.0278]
+Epoch[345] Batch[186/187] Loss[0.1002] Loss-Avg[0.0289]
+Epoch[346] Batch[186/187] Loss[0.1949] Loss-Avg[0.0389]
+Epoch[347] Batch[186/187] Loss[0.0502] Loss-Avg[0.0384]
+Epoch[348] Batch[186/187] Loss[0.0134] Loss-Avg[0.0362]
+Epoch[349] Batch[186/187] Loss[0.0181] Loss-Avg[0.0332]
+Epoch[350] Batch[186/187] Loss[0.0199] Loss-Avg[0.0332]
+Epoch[351] Batch[186/187] Loss[0.0335] Loss-Avg[0.0397]
+Epoch[352] Batch[186/187] Loss[0.0235] Loss-Avg[0.0345]
+Epoch[353] Batch[186/187] Loss[0.0203] Loss-Avg[0.0356]
+Epoch[354] Batch[186/187] Loss[0.0155] Loss-Avg[0.0317]
+Epoch[355] Batch[186/187] Loss[0.0406] Loss-Avg[0.0507]
+Epoch[356] Batch[186/187] Loss[0.0612] Loss-Avg[0.0656]
+Epoch[357] Batch[186/187] Loss[0.0442] Loss-Avg[0.0493]
+Epoch[358] Batch[186/187] Loss[0.0221] Loss-Avg[0.0394]
+Epoch[359] Batch[186/187] Loss[0.0170] Loss-Avg[0.0315]
+Epoch[360] Batch[186/187] Loss[0.0094] Loss-Avg[0.0278]
+Epoch[361] Batch[186/187] Loss[0.0235] Loss-Avg[0.0266]
+Epoch[362] Batch[186/187] Loss[0.0165] Loss-Avg[0.0254]
+Epoch[363] Batch[186/187] Loss[0.0110] Loss-Avg[0.0235]
+Epoch[364] Batch[186/187] Loss[0.0090] Loss-Avg[0.0231]
+Epoch[365] Batch[186/187] Loss[0.0116] Loss-Avg[0.0230]
+Epoch[366] Batch[186/187] Loss[0.0173] Loss-Avg[0.0250]
+Epoch[367] Batch[186/187] Loss[0.0291] Loss-Avg[0.0264]
+Epoch[368] Batch[186/187] Loss[0.0134] Loss-Avg[0.0311]
+Epoch[369] Batch[186/187] Loss[0.0428] Loss-Avg[0.0381]
+Epoch[370] Batch[186/187] Loss[0.0283] Loss-Avg[0.0423]
+Epoch[371] Batch[186/187] Loss[0.0321] Loss-Avg[0.0450]
+Epoch[372] Batch[186/187] Loss[0.0321] Loss-Avg[0.0403]
+Epoch[373] Batch[186/187] Loss[0.0389] Loss-Avg[0.0363]
+Epoch[374] Batch[186/187] Loss[0.0156] Loss-Avg[0.0339]
+Epoch[375] Batch[186/187] Loss[0.0125] Loss-Avg[0.0309]
+Epoch[376] Batch[186/187] Loss[0.0142] Loss-Avg[0.0298]
+Epoch[377] Batch[186/187] Loss[0.0375] Loss-Avg[0.0305]
+Epoch[378] Batch[186/187] Loss[0.0120] Loss-Avg[0.0282]
+Epoch[379] Batch[186/187] Loss[0.0222] Loss-Avg[0.0358]
+Epoch[380] Batch[186/187] Loss[0.0068] Loss-Avg[0.0314]
+Epoch[381] Batch[186/187] Loss[0.0120] Loss-Avg[0.0285]
+Epoch[382] Batch[186/187] Loss[0.0190] Loss-Avg[0.0304]
+Epoch[383] Batch[186/187] Loss[0.0096] Loss-Avg[0.0294]
+Epoch[384] Batch[186/187] Loss[0.0243] Loss-Avg[0.0295]
+Epoch[385] Batch[186/187] Loss[0.0253] Loss-Avg[0.0297]
+Epoch[386] Batch[186/187] Loss[0.0148] Loss-Avg[0.0358]
+Epoch[387] Batch[186/187] Loss[0.0188] Loss-Avg[0.0317]
+Epoch[388] Batch[186/187] Loss[0.0473] Loss-Avg[0.0333]
+Epoch[389] Batch[186/187] Loss[0.0148] Loss-Avg[0.0325]
+Epoch[390] Batch[186/187] Loss[0.0162] Loss-Avg[0.0311]
+Epoch[391] Batch[186/187] Loss[0.0232] Loss-Avg[0.0318]
+Epoch[392] Batch[186/187] Loss[0.0139] Loss-Avg[0.0333]
+Epoch[393] Batch[186/187] Loss[0.0226] Loss-Avg[0.0324]
+Epoch[394] Batch[186/187] Loss[0.0169] Loss-Avg[0.0323]
+Epoch[395] Batch[186/187] Loss[0.0412] Loss-Avg[0.0325]
+Epoch[396] Batch[186/187] Loss[0.0127] Loss-Avg[0.0309]
+Epoch[397] Batch[186/187] Loss[0.0138] Loss-Avg[0.0297]
+Epoch[398] Batch[186/187] Loss[0.0173] Loss-Avg[0.0356]
+Epoch[399] Batch[186/187] Loss[0.0367] Loss-Avg[0.0353]
+Epoch[400] Batch[186/187] Loss[0.0159] Loss-Avg[0.0315]
+--start testing...
+saving results...
+evaluating performance...
+************ Overall Performance ************
+RNN text generation comparison:
+
+[0] Original: what keeps the lions from leaving the savannah the ele-fence"
+[0] Generated: what keeps the Offspring song about how to store mummies?
+[1] Original: Why are there only two hundred and thirty nine beans in a bowl of bean soup? Because just one more and it would be two-farty"
+[1] Generated: Why are there Because it saw the salad dressing" My brother said he's incontinent. Yeah, he said he's wet his pants in nearly every nation
+[2] Original: What do you call a fly with no wings? A walk."
+[2] Generated: What do you hear the Offspring song about how to store
+[3] Original: What does a train full of grain's whistle sound like? ""COUS, COUS!!!"""
+[3] Generated: What does a small medium at skelleton Did you hear about the
+[4] Original: What do you call an old soldier who has been sprinkled in salt and pepper? A seasoned veteran."
+[4] Generated: What do you hear the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How
+[5] Original: /r/cleanjokes hits 10K subscribers **/r/cleanjokes metrics:** Total Subscribers: 10,000 Subreddit Rank: 2,246 Milestones &amp; Subreddit Growth: http://redditmetrics.com/r/cleanjokes"
+[5] Generated: /r/cleanjokes hits 10K Why did the lion spit out the clown? Because he tasted funny." Why did
+[6] Original: What's brown and sticky? A stick"
+[6] Generated: What's brown and named ""Well went
+[7] Original: When do elephants have eight feet? When there are two of them."
+[7] Generated: When do elephants do you pay for things in the Czech Republic?
+[8] Original: Did you know yesterday was National Middle Child Day? Don't worry, no one else remembered either."
+[8] Generated: Did you know you hear about a two lawyers got away when the rabbit." So, I
+[9] Original: A horse walks into a bar, orders a beer. The bartender says, ""Why the long face?"" And the horse answers, ""They've started a round of layoffs at the plant."""
+[9] Generated: A horse walks into a bar... What walks up to the hostess and says, ""You're more beautiful than any stamp in my collection"" She replied, ""Philately will get you
+[10] Original: What did one math book say to the other math book? We've got a lot of problems."
+[10] Generated: What did one of my legs and arms.. because he was disarmed and defeated." I farted on
+[11] Original: What do dwarves use to cut their pizza? Little Caesars"
+[11] Generated: What do dwarves of Cantelope" good see the skeleton on
+[12] Original: What do fish think about air? It's UN-B-REATHABLE!"
+[12] Generated: What do fish on him their it!!!" What's
+[13] Original: What do you get when you cross a firecracker and a duck? A firequacker."
+[13] Generated: What do you hear the Offspring song about how to store mummies? ""You gotta
+[14] Original: Cars Why do lazy people only drive automatics? Because they're shiftless."
+[14] Generated: Cars Why do not so jokes." X-post from r/jokes: ""Hey! The
+[15] Original: Will you tell you the story of the huge sad wall? I shouldn't, you'll never get over it."
+[15] Generated: Will you tell you by people with time joke about all it's my old So I know eat
+[16] Original: How do you catch a unique rabbit? *unique* up on it!"
+[16] Generated: How do you hear the Offspring song about how to store
+[17] Original: What kind of beer does a cow brew? Heifer-weizen."
+[17] Generated: What kind of a rubber little name... Why does
+[18] Original: What's the best way to capitalize on an opportunity? ON AN OPPORTUNITY"
+[18] Generated: What's the best time heard waiting it lives under the other bride."
+[19] Original: What has two arms and 14 legs? Guy who collects legs."
+[19] Generated: What has two Mexican in the zoo? Too many cheetahs" What
+[20] Original: Whats blue and smells like red paint? Blue paint"
+[20] Generated: Whats blue and named ""Well dig, before it falls
+[21] Original: When German children play a game involving touching each other with bread... it's called gluten tag. I'll show myself out."
+[21] Generated: When German children and a good at no eye? fsh" Why should you always knock before opening the refrigerator? Because
+[22] Original: What are caterpillars afraid of? DOGerpillars!"
+[22] Generated: What are caterpillars she's Omg =
+[23] Original: what did the zero say to the eight? nice belt"
+[23] Generated: what did the Offspring song about how to store mummies?
+[24] Original: What do you call a fish with no eyes? A fsh"
+[24] Generated: What do you hear the Offspring song about how to store
+[25] Original: What type pf culture is most peaceful and never gets angry? Nomads!"
+[25] Generated: What type pf Old do you make a tissue dance? You put
+[26] Original: What does music have to do with safety? If you don't C sharp, you'll B flat."
+[26] Generated: What does music because it was stamp in layoffs and get Will reception" of bread in
+[27] Original: Where did the cat go when it lost it's tail? To the retail store!"
+[27] Generated: Where did the Offspring song about how to store mummies? ""You gotta keep 'em
+[28] Original: I thought I had a brain tumor but then I realized it was all in my head."
+[28] Generated: I thought I keep her baby There are i'm very dog - Because he just only a
+[29] Original: What Johnny Mercer song does December 21st remind you of? Autumn Leaves."
+[29] Generated: What Johnny Mercer will do zombies go to weigh red in language
+[30] Original: Why did the tissue get up and dance? It had a little boogy in it."
+[30] Generated: Why did the Offspring song about how to store mummies? ""You gotta keep 'em desiccated"""
+[31] Original: Knock Knock... 1.Knock knock. Whos there? Yoda lady. Yoda lady who? Good job yodeling! 2.Knock knock. Whos there? Well, not your parents, because your parents never knock!"
+[31] Generated: Knock Knock... 1.Knock knock. Whos there? Yoda lady. Yoda lady who? Good job yodeling! 2.Knock knock. Whos there? Well, not your parents, because your parents never knock!"
+[32] Original: College My son took Rock Climbing in college but he had to drop the class. He couldn't find any ""Cliff Notes."""
+[32] Generated: College My son a day of your car? Why can take all that planet? married? Because he couldn't find a date!"
+[33] Original: What's the difference between a cat and a complex sentence? A cat has claws at the end of its paws. A complex sentence has a pause at the end of its clause."
+[33] Generated: What's the difference a 25 There brings you that you had no body in prison? Congee-gal visit" First post and an original How much does a Chinese elephant weigh? .................. Wonton" ""What
+[34] Original: Every single morning I get hit by the same bike... It's a vicious cycle."
+[34] Generated: Every single morning that take over school? Because he was absolutely ribbeting!" What do
+[35] Original: What's a comedian's favorite candy? Laffy Taffy."
+[35] Generated: What's a comedian's Why did the Chicken
+[36] Original: Why do bears hate shoes so much? They like to run around in their bear feet."
+[36] Generated: Why do bears so hairy ? They don't have salons in the jungle !" What did
+[37] Original: My uncle wanted to give all his sheep a sex change... But it entailed too many ramifications!"
+[37] Generated: My uncle wanted to turn around? Because he could only make 14 point turns." I hate when
+[38] Original: I'm reading a book about anti-gravity... ... It's impossible to put down"
+[38] Generated: I'm reading a small I'm green, on a polar bear walks into
+[39] Original: What's the difference between a bird and a fly? A bird can fly, but a fly can't bird."
+[39] Generated: What's the difference a 25 ...or into the bathroom ... because the ""p"" is silent" I knew this
+[40] Original: I saw this man and woman wrapped in a barcode... I asked, Are you two an item?"
+[40] Generated: I saw this friend about the sail on a boat? Why was the old oak tree? I
+[41] Original: Ask your doctor if left is right for you."
+[41] Generated: Ask your doctor who never keep psychology? Sigmund Fraud"
+[42] Original: Why are the nordic countries the best countries to live in? Their flags are big plusses."
+[42] Generated: Why are the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How
+[43] Original: Why Does Snoop Dogg need an umbrella? For drizzle, my nizzle. :D"
+[43] Generated: Why Does Snoop last thing for my jokes)" Did you hear about
+[44] Original: Why does a chicken coop have two doors? Because if it had four it would be a chicken sedan!"
+[44] Generated: Why does a small donation towards the local swimming pool. I gave him a glass of water." You know
+[45] Original: What do you call a group of security guards in front of a Samsung store? Guardians of the Galaxy."
+[45] Generated: What do you hear the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How many
+[46] Original: Mary had a little lamb. She's not a vegan anymore."
+[46] Generated: Mary had a small donation towards the local swimming pool.
+[47] Original: What do caves have? Echosystems. From my 9 year-old."
+[47] Generated: What do caves I am How do you keep
+[48] Original: What's so great about living in Switzerland? Well, the flag is a big plus."
+[48] Generated: What's so great Where did the Nobel knew the constipated mathematician? He worked his
+[49] Original: All these people getting emails from the Prince of Nigeria, I got one from an Egyptian Pharaoh... But it turned out to just be a pyramid scheme."
+[49] Generated: All these people who talk about my behind Sorry of the crazy Mexican Train Killer? He had...... Loco Motives" What's faster hot or cold? Hot! Because anyone
+[50] Original: What do you do to dead chemists? You barium."
+[50] Generated: What do you hear the Offspring song about how
+[51] Original: What did the eye say to the other eye? Something smells between us."
+[51] Generated: What did the Offspring song about how to store mummies? ""You gotta keep
+[52] Original: What do you call an atheist bone? A blasfemur."
+[52] Generated: What do you hear the Offspring song about how
+[53] Original: Never try to kill a termite with a napkin. It'll only get bigger."
+[53] Generated: Never try to get Well, you're jokes What did the spider use its
+[54] Original: Chemistry Student I'm a science teacher and once I asked one of my lazy students if he knew the chemical symbol for sodium. He replied, 'Na, I don't'. Lucky sod, he's only ever right periodically."
+[54] Generated: Chemistry Student I'm not so he came to address the situation" Just went to an emotional wedding Even the cake was in tiers." What do you call a penguin with a smoking problem? It's a
+[55] Original: Science joke The bartender says ""we don't serve your kind here"" He orders a drink A Tachyon walks into a bar Who wants to hear a Tachyon joke?"
+[55] Generated: Science joke The other day, I was looking through my socks, when I found one had a hole in it... ""darn it..."" I muttered." Coco The Clown took
+[56] Original: A mathematician was constipated, how did he solve his problem? He worked it out with a pencil and paper."
+[56] Generated: A mathematician was mathematician? He worked it out with a pencil and paper." Why don't Bond villains feel cold
+[57] Original: Why don't Bond villains feel cold in the winter? Because they dress in lairs."
+[57] Generated: Why don't Bond find Will Smith in the winter? You search for Fresh Prints."
+[58] Original: Why didn't the fisherman go to Florida to fish for long jawed fish with rows of razor like teeth? He didn't have a Gar"
+[58] Generated: Why didn't the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How many tickles does it take to make an
+[59] Original: How many Romans does it take to screw in a light bulb? V."
+[59] Generated: How many Romans is it." How do you call an economics lecturer? Prof.
+[60] Original: Every journey has a beginning. -ahem- Just a small town girl Living in a lonely world..."
+[60] Generated: Every journey has more with my fault you know I'm it's so their said Why was
+[61] Original: Fart tutor wanted, must have references"
+[61] Generated: Fart tutor wanted, from the 1930s."
+[62] Original: Why was the dolphin happy and the shark depressed? The sharks life lacked porpoise."
+[62] Generated: Why was the Offspring song about how to store mummies? ""You gotta keep 'em
+[63] Original: What's brown and sticky? A stick."
+[63] Generated: What's brown and named 9. What
+[64] Original: What do you say to your sister when she's crying? Are you having a crisis?"
+[64] Generated: What do you hear the Offspring song about how to store mummies? ""You gotta keep
+[65] Original: Why are giraffes' necks so long? Because their heads are so far away from their bodies."
+[65] Generated: Why are giraffes' necks so hard at the format of my essay. It wasn't justified." The
+[66] Original: What does a thesaurus eat for breakfast? A synonym roll."
+[66] Generated: What does a small donation towards the local swimming pool.
+[67] Original: Which side of a horse has the most hair? The OUTSIDE! oh-my-goodness, that's hilarious! ~Skip"
+[67] Generated: Which side of a room? called? book fast Well, you bury do you call a
+[68] Original: Ever heard about that movie called Constipation? It never came out."
+[68] Generated: Ever heard about the good got who under my old cell
+[69] Original: Why should you always knock before opening the refrigerator? Because there might be an Italian dressing."
+[69] Generated: Why should you hear the Offspring song about how to store mummies? ""You gotta keep 'em
+[70] Original: A penguin walks into a bar... He goes up to the barman and says, ""Have you seen my father in here today?"" The barman says, ""I don't know, what does he look like?"""
+[70] Generated: A penguin walks into a bar... And a house What do you know you are getting a good deal on a boat? When there's a sail on it." What did the fish say
+[71] Original: Why did the fly fly? Because the spider spied her."
+[71] Generated: Why did the Offspring song about how to store mummies?
+[72] Original: Why was the tomato blushing? Because it saw the salad dressing!"
+[72] Generated: Why was the Offspring song about how to store mummies? ""You
+[73] Original: A woman files for divorce from her husband... citing that he makes too many Star Wars puns. When asked if this is true the husband says, ""Divorce is strong with this one."""
+[73] Generated: A woman files for divorce from her husband... citing that he makes too many Star Wars puns. When asked if this is true the husband says, ""Divorce is strong with this one."""
+[74] Original: Why do good farmers only excel when they are actually farming? (X-post from /r/jokes) Because they are out standing in their field."
+[74] Generated: Why do good at the good at Walmart end from me he knows them a kind of its Do you go down
+[75] Original: What do you call a dog with no legs? It doesn't matter what you call it, it won't come."
+[75] Generated: What do you hear the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How many
+[76] Original: What did the slab of meat say when it was covered in salt and left out to dry? ""I'm cured!"""
+[76] Generated: What did the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How many tickles does it
+[77] Original: Two fish are in a tank... Two fish are in a tank... First one says: I'll drive! Second one says: ""I'll man the guns!"""
+[77] Generated: Two fish are My little food - Where do dogs go when he ran no sore called freight!" I just not a good Says
+[78] Original: Today I brought a computer back from the dead. I've decided that this makes me a techromancer."
+[78] Generated: Today I brought I have been on my way this faster, who has an iTunes playlist called
+[79] Original: ""Stay strong!"" I said to my wi-fi signal."
+[79] Generated: ""Stay strong!"" I then, I'm going to go
+[80] Original: What do you get when you cross an octopus with a cow? A stern rebuke from the Ethics Committee, and an immediate cessation of funding."
+[80] Generated: What do you hear the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How many tickles does it take to make
+[81] Original: I bought a duckdoo yesterday! 'What's a duckdoo?' ""quack, quack"""
+[81] Generated: I bought a small donation towards the local swimming pool.
+[82] Original: Did you hear about the farmer that fell into the field machine and lost half his body? He's all right now! :-)"
+[82] Generated: Did you hear the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How many tickles does it take
+[83] Original: Why did the jellyroll? He saw the apple turnover."
+[83] Generated: Why did the Offspring song about how to store
+[84] Original: What do you call... What do you call an Italian romance novel model who's let himself go? Flabio."
+[84] Generated: What do you hear the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How
+[85] Original: Why does a milking stool have only three legs? Because the cow has the udder!"
+[85] Generated: Why does a small why one frog cost to say to the other side." and
+[86] Original: What did the judge ask when he went to the dentist? Do you swear to pull the tooth, the whole tooth and nothing but the tooth?"
+[86] Generated: What did the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How many tickles does it take to make an octopus laugh?
+[87] Original: What is green, has four legs and if it fell out of a tree and landed on you it would kill you? A pool table!"
+[87] Generated: What is green, hear one says: I'll drive! Second one says: ""I'll man the guns!""" Today I brought a computer back from the dead. I've
+[88] Original: What is Paula Deen's favorite insect? The Butterfly"
+[88] Generated: What is Paula find contributions? A Humblebee." What
+[89] Original: What did the pebble say to the rock? I wish I was a little boulder!"
+[89] Generated: What did the Offspring song about how to store mummies? ""You gotta keep 'em desiccated"""
+[90] Original: Why did the scarecrow win the Nobel prize? He was outstanding in his field."
+[90] Generated: Why did the Offspring song about how to store mummies? ""You gotta keep 'em
+[91] Original: Want to hear a joke about pizza? Never mind, it's probably too cheesy."
+[91] Generated: Want to hear the Offspring song about how to store mummies? ""You gotta
+[92] Original: TV playback craziness [Through the eyes of Adrienne Hedger](https://www.facebook.com/HedgerHumor/photos/pb.630201143662377.-2207520000.1443863939./1179935295355623/?type=3&amp;theater). :)"
+[92] Generated: TV playback craziness out the skeleton with his math homework?
+[93] Original: What kind of bees make milk? Boobies."
+[93] Generated: What kind of a tree? A pool
+[94] Original: Did you hear about the Antennas that got married? The wedding was lame, but the reception was great!"
+[94] Generated: Did you hear the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How many
+[95] Original: I do my best when my manager puts a gun to my head."
+[95] Generated: I do my eyes closed..." What do you call a cow with no
+[96] Original: People dont like having to bend over to get their drinks... We really need to raise the bar."
+[96] Generated: People dont like Which Religious appliance What was a tie." say Well, he was in love What's the
+[97] Original: What language do they speak in Holland? Hollandaise."
+[97] Generated: What language do not so jokes." top!" from
+[98] Original: Why did the chicken cross the playground? To get to the other slide."
+[98] Generated: Why did the Offspring song about how to store mummies? ""You gotta keep
+[99] Original: What did the wall ask the picture? (All together now!) ***""How's it hangin'?""*** ~Skip"
+[99] Generated: What did the Offspring song about how to store mummies? ""You gotta keep 'em
+[100] Original: What did the fish say when it hit the concrete wall? Dam"
+[100] Generated: What did the Offspring song about how to store mummies? ""You gotta
+[101] Original: What do you call a cow with three legs? Tri-tip."
+[101] Generated: What do you hear the Offspring song about how to
+[102] Original: Why does the Pope only eat munchkins? Cause they're the holy part of the donut!"
+[102] Generated: Why does the Offspring song about how to store mummies? ""You gotta keep 'em desiccated"""
+[103] Original: How do you kill a circus? You stab it in the juggler."
+[103] Generated: How do you hear the Offspring song about how to store mummies?
+[104] Original: What do you call a deep-sea diving dog? Scuba - Doo!"
+[104] Generated: What do you hear the Offspring song about how to store
+[105] Original: Why does a Bicycle have a kickstand? Because it's two tired."
+[105] Generated: Why does a job helping a one arm typist do capital
+[106] Original: What do you call soup that you've found a hair in? Rabbit Soup :D"
+[106] Generated: What do you hear it to say when it got stocked in the cooler?
+[107] Original: What kind of pants does Super Mario wear? [Denim, denim, denim.](http://www.youtube.com/watch?v=c0SuIMUoShI)"
+[107] Generated: What kind of a cartridge? A snapshot." I just bought a
+[108] Original: The Dalai Lama walks into a pizza store... and says, ""Can you make me one with everything?"""
+[108] Generated: The Dalai Lama have in his over his would never exaggerate... ...in a long time to swallow
+[109] Original: What form of radiation bakes you cookies? A gramma ray"
+[109] Generated: What form of a room? ""Don't worry, his one of
+[110] Original: I can make a movie with my hand. All it takes is a FLICK of the wrist!"
+[110] Generated: I can make a ~Skip" What You do tell and a long joke? Joke joke jooooke!" I
+[111] Original: What do you get when you cross an elephant and a rhino? 'ell if I know wot to call it!"
+[111] Generated: What do you hear the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How many tickles
+[112] Original: What do you call it when you dip poultry and beef in chocolate?  Brown-chichen-Brown-cow"
+[112] Generated: What do you make it everything" Why a bored later." You make down the
+[113] Original: Why did the bullet stay home? Because it got fired!"
+[113] Generated: Why did the Offspring song about how to store mummies?
+[114] Original: Did you hear about the casting for the new Batman movie? People have really Ben Affleckted by it."
+[114] Generated: Did you hear the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How many
+[115] Original: How did the metal get the wrong idea? He was misled."
+[115] Generated: How did the hole in the boat not to like I
+[116] Original: My buddy said he'd give his right arm to be ambidextrous I can only admire such dedication."
+[116] Generated: My buddy said he had too weak..." What do you get when you cross a crocodile with
+[117] Original: Knock knock. Who's there? Doorbell technician."
+[117] Generated: Knock knock. Who's or cold? Hot
+[118] Original: A broom only likes one brand of comedy. Dustpan."
+[118] Generated: A broom only ever of an elephant with a
+[119] Original: Where does a river keep it's money? At the bank."
+[119] Generated: Where does a small why a bike a lot. They
+[120] Original: Why do birds fly south for the winter? because its too far to walk!"
+[120] Generated: Why do birds the Yoda Dayton and Marion." Original physics joke. I'm very proud.
+[121] Original: Two drums and a cymbal fall off a cliff. Buh dum tss!"
+[121] Generated: Two drums and named ""Well went to a party in a bowl
+[122] Original: How do you get down from an elephant? You don't, you get down from a duck"
+[122] Generated: How do you hear the Offspring song about how to store mummies? ""You gotta keep 'em
+[123] Original: There's 10 kind of people in the world. Those who know binary and those who don't."
+[123] Generated: There's 10 kind of house do dogs always invented a monk you tell you say to
+[124] Original: Why don't blind people like skydiving? It scares the crap out of the dog."
+[124] Generated: Why don't blind Which side of a dog He couldn't the bar? Chardaneiiiiiiggghhhhh" What
+[125] Original: Where do dogs go when they lose their tails? To a retail store."
+[125] Generated: Where do dogs to the first. side." What did the fish say when
+[126] Original: I wanted to put a pizza joke here ...but it was too saucy."
+[126] Generated: I wanted to get over a pair of socks? way to see a
+[127] Original: Why did the twinkie go to the dentist? He lost his filling!"
+[127] Generated: Why did the Offspring song about how to store mummies? ""You gotta
+[128] Original: What is heavy forward but not backward? **ton**"
+[128] Generated: What is heavy A left And one of
+[129] Original: What do you call a fake noodle? An Impasta"
+[129] Generated: What do you hear the Offspring song about how
+[130] Original: What happens when breed a shark and snowman? You get a frostbite!"
+[130] Generated: What happens when they are two doors? If if he had to
+[131] Original: There's a wreath hanging on my door with hundred dollar bills attached. I call it an Aretha Franklin. c:"
+[131] Generated: There's a wreath getting old breakfast? A shops? there? I get two of them." Did you hear about the
+[132] Original: What kind of bee can never be understood? A mumble-bee."
+[132] Generated: What kind of a tree? A pool table." So today
+[133] Original: ""We don't serve time travelers here"" A time traveler walks into a bar."
+[133] Generated: ""We don't serve the roots of negative numbers for too long? Square eyes"
+[134] Original: Did you hear about the two monocles at the party? They made spectacles out of themselves."
+[134] Generated: Did you hear the Offspring song about how to store mummies? ""You gotta keep 'em desiccated"""
+[135] Original: What type of doctor prescribes Coke and 7-up for a living? A Poptometrist!"
+[135] Generated: What type of a tree? A cute table." Why did the library book
+[136] Original: What is the medical term for owning too many dogs? [A Roverdose](http://i.imgur.com/BtyF5ys.jpg)"
+[136] Generated: What is the Offspring song about how to store mummies? ""You gotta
+[137] Original: Did someone say ""purple""? Sorry, it must have been a pigment of my imagination!"
+[137] Generated: Did someone say to the number eight? Nice Belt" What did the turkey say
+[138] Original: a disability, a curse word and a radical interpretation of scripture walk into a bar nothing happened welcome to /r/cleanjokes"
+[138] Generated: a disability, a small donation towards the local swimming pool. I gave him a glass of water." You know what's
+[139] Original: What do you call a ubiquitous spud? A common-tater!"
+[139] Generated: What do you hear the Offspring song about how
+[140] Original: Why did the paper follow the pencil? Because it LED THE WAY! I'm on a roll here! this is fun! ~Skip"
+[140] Generated: Why did the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How many tickles does it take
+[141] Original: I've just made a meeting site for retired chemists It's called Carbon Dating"
+[141] Generated: I've just made a high turnover rate." What's a martini's favorite garnish? Olive
+[142] Original: Why is Dr. Frankenstein never lonely? He's good at making friends."
+[142] Generated: Why is Dr. back... The host asks the man why this
+[143] Original: I went to an ATM... I was at an ATM this morning and this older lady asked me to help check her balance, so I pushed her over."
+[143] Generated: I went to get him and shellfish." Why did the golfer need to buy a new pair of socks? Because he got a hole in one!" What did
+[144] Original: Why are bears so hairy ? They don't have salons in the jungle !"
+[144] Generated: Why are bears so hairy ? They don't have salons in the jungle !"
+[145] Original: What did one octopus say to the other octopus? Will you hold my hand hand hand hand hand hand hand hand?"
+[145] Generated: What did one of his legs when his business were stopped functioning. My girlfriend says, a cow makes a lot They
+[146] Original: What do you call a pachyderm that sings jazz? Elephants Gerald"
+[146] Generated: What do you hear the Offspring song about how to store
+[147] Original: What does Mario use to get his hot dogs off the grill? He uses his Donkey Tongs."
+[147] Generated: What does Mario town to the doctor? It needed to be checked out; it had a bloated
+[148] Original: Did you hear about the mathematician who hated negative numbers? He'll stop at nothing to avoid them!"
+[148] Generated: Did you hear the Offspring song about how to store mummies? ""You gotta keep 'em desiccated""" How
+[149] Original: What happens to a frog's car when it breaks down? It gets toad away."
+[149] Generated: What happens to get Well, you're dillos." What do you call a an Aretha
+[150] Original: I know a woman who owns a taser... Let me tell you, she's stunning!"
+[150] Generated: I know a small donation towards the local swimming pool. I gave him a
+[151] Original: What did the number zero say to the number eight? Nice Belt"
+[151] Generated: What did the Offspring song about how to store mummies? ""You gotta
+[152] Original: What did the turkey say to the turkey hunter? ""Quack, quack, quack."""
+[152] Generated: What did the Offspring song about how to store mummies? ""You gotta
+[153] Original: What type of cheese lives under your bed? Muenster."
+[153] Generated: What type of a tree? A third student spoke
+[154] Original: What kind of car did the German cowboy purchase? Audi *tips hat*"
+[154] Generated: What kind of a attire." and a mud pie? Well then sorry,
+[155] Original: X-post from r/jokes: Mommy! I found a $10 bill today, but I threw it away, cus it was fake. ""Oh, how did you know it was fake?"" ""It had two zeroes instead of one."""
+[155] Generated: X-post from r/jokes: find in a cloud's shorts? Thunderpants!" I had to clean out my spice rack and found everything was too old and had to be thrown out. What a waste of thyme."
+[156] Original: What did the topic sentence say to the evidence? Why aren't you supporting me?"
+[156] Generated: What did the Offspring song about how to store mummies? ""You gotta keep 'em
+[157] Original: What do you call cheese that isn't yours? Nacho cheese!"
+[157] Generated: What do you hear the Offspring song about how to
+[158] Original: What did the O say to the 8? Nice belt."
+[158] Generated: What did the Offspring song about how to store mummies?
+[159] Original: everybody gets their 15 minutes of fame - so here's my first original joke! why is it impossible to surprise a snowman? .. he has ice in the back of his head"
+[159] Generated: everybody gets their online? I just read this article about short term memory I don't remember what it was about" If you have bladder problems. Urine trouble." There were two flies sitting
+[160] Original: Why was 9 afraid of 20? 28 29's"
+[160] Generated: Why was 9 flat cold? restaurant But when
+[161] Original: I tired playing soccer But I couldn't get a kick out of it."
+[161] Generated: I tired playing lazy To get to the other day and I've come
+[162] Original: Why was the chicken kicked out of class? For using *fowl* language."
+[162] Generated: Why was the Offspring song about how to store mummies? ""You gotta
+************ Finish ************
